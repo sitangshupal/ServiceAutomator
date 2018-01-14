@@ -11,3 +11,14 @@ MVN Dependency:
 </dependency>
 ```
 
+# Usage
+
+* Add header to the request:
+
+```
+private ServiceRelated sr = new ServiceRelated();
+sr. setHeader("header name", "header value");
+for ex:
+sr.setHeader("User-Agent", "Mozilla/5.0");
+```
+
