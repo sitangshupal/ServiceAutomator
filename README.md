@@ -1,11 +1,11 @@
 # EasyServiceAutomator
 
 # MVN Dependency:
-('<dependency>
-<groupId>com.github.sitangshupal.ServiceAutomator</groupId>
-	<artifactId>easyServiceAutomator</artifactId>
-	<version>1.0.0</version>
-</dependency>')
+&lt;dependency&gt;
+	&lt;groupId&gt;com.github.sitangshupal.ServiceAutomator&lt;/groupId&gt;
+	&lt;artifactId&gt;easyServiceAutomator&lt;/artifactId&gt;
+	&lt;version&gt;1.0.0&lt;/version&gt;
+&lt;/dependency&gt;
 
 # Usage
 
