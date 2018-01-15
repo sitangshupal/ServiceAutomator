@@ -1,5 +1,7 @@
 # EasyServiceAutomator
 
+This jar file is designed to automate RESTful Web Services on the top of [HttpClient](https://hc.apache.org/httpcomponents-client-ga/).
+
 MVN Dependency:
 ===============
 
