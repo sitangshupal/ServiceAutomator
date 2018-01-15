@@ -80,3 +80,23 @@ sr.getResponseCode();
 
 	}
 ```
+
+# For Post method
+
+```	
+	public void postMethodDemo(){
+	
+		sr.
+		setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8").
+		setHeader("Accept-Language", "en-US,en;q=0.9,und;q=0.8").
+		setHeader("Host", "host name").
+		setHeader("User-Agent", "Mozilla/5.0").
+		setHeader("Connection", "keep-alive").
+		setParamList("param1", "param1 value").
+		setParamList("param2", "param2 value").
+		sendPost("url");
+
+		System.out.println(sr.getResponseCode());
+		
+	}
+```
