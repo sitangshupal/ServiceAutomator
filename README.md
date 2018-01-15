@@ -55,3 +55,28 @@ sr. sendPost(“url of the post request”);
 ```
 sr.getResponseCode();
 ```
+
+
+# For Get method
+
+```
+	private static ServiceRelated sr = new ServiceRelated();
+
+	public void getMethodDemo(){
+
+		String pageContent = sr.
+				setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8").
+				setHeader("Accept-Language", "en-US,en;q=0.9,und;q=0.8").
+				setHeader("Host", "host name").
+				setHeader("User-Agent", "Mozilla/5.0").
+				setHeader("Connection", "keep-alive").
+				GetPageContent("url");
+
+		if(pageContent.contains("expected text")){
+			System.out.println("Pass");
+		} else {
+			System.out.println("Fail");
+		}
+
+	}
+```
